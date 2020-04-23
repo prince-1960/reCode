@@ -101,7 +101,7 @@ class Login extends Component {
 								Login
 							</button>
 						</form>
- 						<p>Have an account ? <a href="/login">Login</a></p>
+ 						<p>New User ? <a href="/register">Register</a></p>
 						<footer class="page-copyright">
 							<p>TCS Ninja</p>
 							<p>© 2020. All RIGHT RESERVED.</p>
