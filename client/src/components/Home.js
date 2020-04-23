@@ -36,7 +36,7 @@ class Home extends Component {
 			let place = event.target.value;
 			//axios.get("http://localhost:3000/" + event.target.value +".json").then((Response) => {
 			axios
-				.get("http://localhost:4000/Detail/" + event.target.value)
+				.get("/Detail/" + event.target.value)
 				.then(Response => {
 					let data = [];
 

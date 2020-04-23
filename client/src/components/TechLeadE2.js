@@ -17,7 +17,7 @@ class TechLeadE2 extends Component {
 
 	getUsers() {
 		axios
-			.get("http://localhost:4000/Detail/TechLeadE2")
+			.get("/Detail/TechLeadE2")
 			.then(response => this.setState({ users: response.data }));
 	}
 

@@ -17,7 +17,7 @@ class E0 extends Component {
 
 	getUsers() {
 		axios
-			.get("http://localhost:4000/Detail/DevE0")
+			.get("/Detail/DevE0")
 			.then(response => this.setState({ users: response.data }));
 	}
 
